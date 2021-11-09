@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    
+    <Button
+        android:id="@+id/browser_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google"
+        android:onClick="browsergg"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/favorite_color_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/color"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/picked_color_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Please pick a color"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/pick_color_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_button"
+        android:layout_gravity="center"
+        android:onClick="gotoActivity2"/>
+
+    <TextView
+        android:id="@+id/bff_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bff"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/picked_bff_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Pick a friend"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/pick_bff_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_bff"
+        android:layout_gravity="center" />
+
+</LinearLayout>

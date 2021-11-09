@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cash Converter</string>
+    <string name="title">Convert your cash in no time!</string>
+    <string name="USD">USD</string>
+    <string name="Euro">EUR</string>
+    <string name="Rmb">RMB</string>
+    <string name="btn">Convert</string>
+
+</resources>

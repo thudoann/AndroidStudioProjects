@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <fragment
+            android:id="@+id/numpadFragmentLand"
+            android:name="fr.cytech.b3.tp3.Fragment1"
+            android:layout_width="361dp"
+            android:layout_height="249dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="137dp"
+            tools:layout="@layout/fragment_num_pad" />
+
+        <fragment
+            android:id="@+id/displayFragmentLand"
+            android:name="fr.cytech.b3.tp3.Fragment2"
+            android:layout_width="395dp"
+            android:layout_height="149dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="140dp"
+            tools:layout="@layout/fragment_2" />
+
+    </RelativeLayout>
+
+</LinearLayout>

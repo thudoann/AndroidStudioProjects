@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Inspector</string>
+    <string name="multiple">Multiples of</string>
+    <string name="about_title">About</string>
+    <string name="userguideBtn">User Guide</string>
+    <string name="userguide_title">User Guide</string>
+    <string name="close">Close</string>
+    <string name="about">Math Inspector App from 2021</string>
+    <string name="please">Please enter a number!</string>
+    <string name="correct">   is a multiple of </string>
+    <string name="incorrect">   is not a multiple of </string>
+</resources>

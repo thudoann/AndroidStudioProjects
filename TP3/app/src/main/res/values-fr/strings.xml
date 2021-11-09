@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inspecteur des Maths</string>
+    <string name="multiple">Multiples de</string>
+    <string name="about_title">À propos</string>
+    <string name="userguideBtn">Guide D\'utilisation</string>
+    <string name="userguide_title">Guide D\'utilisation</string>
+    <string name="close">Fermer</string>
+    <string name="about">Math Inspector Application depuis 2021</string>
+    <string name="please">Veuillez entrer un numéro !</string>
+    <string name="correct">    est un multiple de </string>
+    <string name="incorrect">   n\'est pas un multiple de</string>
+</resources>

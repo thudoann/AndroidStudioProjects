@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Favorite picker</string>
+    <string name="google">Google</string>
+    <string name="color">My favorite color is:</string>
+    <string name="pick">Pick a color!</string>
+    <string name="red">I love red</string>
+    <string name="green">I enjoy green</string>
+    <string name="blue">I like blue</string>
+    <string name="pick_button">Pick Color</string>
+    <string name="bff">My BFF is:</string>
+    <string name="pick_bff">Pick BFF</string>
+
+</resources>
